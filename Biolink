@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Week 1 Assignment - Maya Bunga</title>
+    <!--Import CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--Import Logo-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--Import Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Content-->
+    <div class="flex-content content center">
+      <!--Picture-->
+      <img src="assets/profile2.png" alt="profile-photo" />
+
+      <!--Text-->
+      <h3 class="mb-0">Salam Everyone!</h3>
+      <h3 class="mt-0">I'm Maya Bunga</h3>
+      <!--Buttons-->
+      <div class="button-container">
+        <!--X Button-->
+        <div class="button margin-10px">
+          <a href="https://twitter.com/bintisutrisno">
+            <div class="flex center">
+              <i class="bx bxl-X fontsize-20"></i>
+              <p class="fontsize-20">X</p>
+            </div>
+          </a>
+        </div>
+        <!--LinkedIn Button-->
+        <div class="button margin-10px">
+          <a href="https://www.linkedin.com/in/mayabunga/">
+            <div class="flex center">
+              <i class="bx bxl-linkedin-square fontsize-20"></i>
+              <p class="fontsize-20">LinkedIn</p>
+            </div>
+          </a>
+        </div>
+        <!--Gmail Button-->
+        <div class="button margin-10px">
+          <a href="https://mailto:mayabungama@gmail.com">
+            <div class="flex center">
+              <i class="bx bxl-gmail fontsize-20"></i>
+              <p class="fontsize-20">Gmail</p>
+            </div>
+          </a>
+        </div>
+        <!--Instagram Button-->
+        <div class="button margin-10px">
+          <a href="https://www.instagram.com/mayabnga">
+            <div class="flex center">
+              <i class="bx bxl-instagram fontsize-20"></i>
+              <p class="fontsize-20">Instagram</p>
+            </div>
+          </a>
+        </div>
+        <!--GitHub Button-->
+        <div class="button margin-10px">
+          <a href="https://github.com/mayabnga">
+            <div class="flex center">
+              <i class="bx bxl-github fontsize-20"></i>
+              <p class="fontsize-20">GitHub</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
